@@ -1,0 +1,39 @@
+{
+  "name": "mysql-intermediate-type",
+  "id": "mysql-intermediate-type",
+  "version": "0.0.2",
+  "description": "Convert mysql column type to intermediate type used by mongoose and backbone",
+  "keywords": [
+    "mysql intermediate type",
+    "mysql type",
+    "mongoose type",
+    "backbone type"
+  ],
+  "author": {
+    "name": "Joseph Persie",
+    "email": "joseph@supraliminalsolutions.com",
+    "url": "http://supraliminalsolutions.com"
+  },
+  "homepage": "https://github.com/zmijevik/mysql-intermediate-type",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zmijevik/mysql-intermediate-type",
+    "web": "https://github.com/zmijevik/mysql-intermediate-type"
+  },
+  "bugs": {
+    "url": "https://github.com/zmijevik/mysql-intermediate-type/issues/"
+  },
+  "devDependencies": {},
+  "directories": {
+    "lib": "."
+  },
+  "main":"./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
