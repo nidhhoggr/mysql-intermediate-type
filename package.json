@@ -1,13 +1,15 @@
 {
   "name": "mysql-intermediate-type",
   "id": "mysql-intermediate-type",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert mysql column type to intermediate type used by mongoose and backbone",
   "keywords": [
-    "mysql intermediate type",
-    "mysql type",
-    "mongoose type",
-    "backbone type"
+    "intermediate",
+    "mysql",
+    "mongoose",
+    "backbone",
+    "type",
+    "zmijevik"
   ],
   "author": {
     "name": "Joseph Persie",
@@ -27,7 +29,7 @@
   "directories": {
     "lib": "."
   },
-  "main":"./index",
+  "main": "./index",
   "scripts": {
     "test": "make test"
   },
@@ -35,5 +37,9 @@
     {
       "type": "MIT"
     }
-  ]
+  ],
+  "readme": "# mysql-intermediate-type\n\n## Install\n\n```bash\nnpm install mysql-intermediate-type\n```\n\n## Introduction\n\nHere is an example on how to use it:\n\n```js\nvar ba_intermediateType = require('mysql-intermediate-type').forBackbone;\nvar mo_intermediateType = require('mysql-intermediate-type').forMongoose;\n\nconsole.log(ba_intermediateType.get(\"int(32)\"));\nconsole.log(mo_intermediateType.get(\"int(32)\"));\n```\n",
+  "readmeFilename": "Readme.md",
+  "_id": "mysql-intermediate-type@0.0.2",
+  "_from": "mysql-intermediate-type"
 }

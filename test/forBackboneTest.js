@@ -81,4 +81,9 @@ var testBackboneFormTypeConversion = function() {
   }
 }
 
-testBackboneFormTypeConversion(); 
+var testGetOptionValues = function() {
+  console.log(intermediateType.getOptionValues("enum('observation well','temporary well','doublewall tank')"));
+}
+
+testBackboneFormTypeConversion();
+testGetOptionValues(); 
